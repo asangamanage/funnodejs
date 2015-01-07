@@ -1,0 +1,27 @@
+{
+  "name": "funnodejs",
+  "version": "1.0.0",
+  "description": "Seed project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asangamanage/funnodejs.git"
+  },
+  "keywords": [
+    "node",
+    "fun",
+    "swig"
+  ],
+  "author": "Asanga Manage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asangamanage/funnodejs/issues"
+  },
+  "homepage": "https://github.com/asangamanage/funnodejs",
+  "dependencies": {
+    "swig": "^1.4.2"
+  }
+}
