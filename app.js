@@ -3,8 +3,8 @@ var url = require('url');
 var swig  = require('swig');
 
 var server = http.createServer ( function (req, res){
-	var url_parts = url.parse(req.url,true);
-	var returnUrl = url_parts.query.returnUrl;
+	var urlParts = url.parse(req.url,true);
+	var returnUrl = urlParts.query.returnUrl;
 	body = swig.renderFile('./views/template.html', {
 		    returnUrl: returnUrl
 	});
